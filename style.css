@@ -1,0 +1,31 @@
+section {
+  margin: 4rem;
+  max-width: 800px;
+}
+
+.graph, .data {
+  padding: 1rem;
+}
+
+.block {
+  background-color: #F3F4F6;
+}
+
+.graph {
+  background-color: #93C5FD;
+  height: 400px;
+}
+
+.info-wrapper {
+}
+
+.info {
+  background-color: #A7F3D0;
+}
+
+.data {
+  background-color: #FDE68A;
+  border-right: 1px solid #4B5563;
+  border-bottom: 1px solid #4B5563;
+  height: 80px;
+}

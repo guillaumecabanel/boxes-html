@@ -1,0 +1,41 @@
+section {
+  margin: 4rem;
+  max-width: 800px;
+}
+
+.graph, .data {
+  padding: 1rem;
+}
+
+.block {
+  background-color: #F3F4F6;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.graph {
+  background-color: #93C5FD;
+  min-width: 80%;
+  height: 400px;
+  flex: 1 0 auto;
+}
+
+.info-wrapper {
+  flex: 1 1 auto;
+}
+
+.info {
+  background-color: #A7F3D0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.data {
+  background-color: #FDE68A;
+  width: 100%;
+  max-width: 200px;
+  flex: 1 1 auto;
+  height: 80px;
+  border-right: 1px solid #4B5563;
+  border-bottom: 1px solid #4B5563;
+}
